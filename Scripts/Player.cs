@@ -65,3 +65,12 @@ public class Player : MonoBehaviour
         
     }
 }
+public class SceneLoader : MonoBehaviour
+{
+    if (collision.gameObject.tag == "Princess")
+        public void LoadSceneByName(string Davide5Workplace)
+        {
+        SceneManager.LoadScene(Davide5Workplace);
+        }
+
+}
